@@ -1,0 +1,17 @@
+name: delchgstream
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: 59ae6b648ca3437aae3a.westeurope.aksapp.io
+framework: dotnet-3.1
+
+database:
+  required: false
+
+
+ingress:
+  required: false
+
+image:
+  name: delchgstream
+  version: latest
