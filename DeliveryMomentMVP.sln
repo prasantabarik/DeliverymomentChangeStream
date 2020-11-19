@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryMomentCosmosChangeStream", "DeliveryMomentCosmosChangeStream\DeliveryMomentCosmosChangeStream.csproj", "{B5A2E4A8-88D9-461F-8169-B4965FE45511}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dmcc", "dmcc\dmcc.csproj", "{B5A2E4A8-88D9-461F-8169-B4965FE45511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryMomentCosmosRepository", "DeliveryMomentCosmosRepository\DeliveryMomentCosmosRepository.csproj", "{51DADC0A-FB28-4DB2-9D66-5F713B6355D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dmcr", "dmcr\dmcr.csproj", "{51DADC0A-FB28-4DB2-9D66-5F713B6355D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfluentKafkaUtility", "ConfluentKafkaUtility\ConfluentKafkaUtility.csproj", "{7D8F3D31-8483-475C-A84D-3665236994B1}"
 EndProject
