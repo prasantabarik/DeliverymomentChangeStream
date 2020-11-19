@@ -1,0 +1,9 @@
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\bin\Debug\netcoreapp3.1\ConfluentKafkaUtility.deps.json
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\bin\Debug\netcoreapp3.1\ConfluentKafkaUtility.dll
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\obj\Debug\netcoreapp3.1\ConfluentKafkaUtility.AssemblyInfoInputs.cache
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\obj\Debug\netcoreapp3.1\ConfluentKafkaUtility.AssemblyInfo.cs
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\bin\Debug\netcoreapp3.1\ConfluentKafkaUtility.pdb
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\obj\Debug\netcoreapp3.1\ConfluentKafkaUtility.csproj.CoreCompileInputs.cache
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\obj\Debug\netcoreapp3.1\ConfluentKafkaUtility.dll
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\obj\Debug\netcoreapp3.1\ConfluentKafkaUtility.pdb
+C:\Nag\SCMCode\DeliveryMomentMVP\ConfluentKafkaUtility\obj\Debug\netcoreapp3.1\ConfluentKafkaUtility.csprojAssemblyReference.cache
