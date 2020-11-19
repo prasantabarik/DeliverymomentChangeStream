@@ -1,4 +1,4 @@
-name: deliverymomentchangettream
+name: del
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
@@ -13,5 +13,5 @@ ingress:
   required: false
 
 image:
-  name: deliverymomentchangettream
+  name: del
   version: latest
