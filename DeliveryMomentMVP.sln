@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dmcc", "dmcc\dmcc.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dmcr", "dmcr\dmcr.csproj", "{51DADC0A-FB28-4DB2-9D66-5F713B6355D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfluentKafkaUtility", "ConfluentKafkaUtility\ConfluentKafkaUtility.csproj", "{7D8F3D31-8483-475C-A84D-3665236994B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cku", "cku\cku.csproj", "{7D8F3D31-8483-475C-A84D-3665236994B1}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C172C500-7772-46B5-8394-A2C7A6BB7734}"
 EndProject

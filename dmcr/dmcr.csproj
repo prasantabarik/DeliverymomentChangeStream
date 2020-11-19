@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConfluentKafkaUtility\ConfluentKafkaUtility.csproj" />
+    <ProjectReference Include="..\cku\cku.csproj" />
   </ItemGroup>
 
 </Project>
