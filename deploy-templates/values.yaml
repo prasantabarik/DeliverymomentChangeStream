@@ -1,4 +1,4 @@
-name: delchgstream
+name: deliverymomentchangettream
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
@@ -13,5 +13,5 @@ ingress:
   required: false
 
 image:
-  name: delchgstream
+  name: deliverymomentchangettream
   version: latest
