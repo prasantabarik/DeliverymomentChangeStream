@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DeliveryMomentCosmosRepository\DeliveryMomentCosmosRepository.csproj" />
+    <ProjectReference Include="..\dmcr\dmcr.csproj" />
   </ItemGroup>
 
 </Project>
