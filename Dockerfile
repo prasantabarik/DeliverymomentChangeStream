@@ -5,18 +5,18 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["DeliveryMomentCosmosChangeStream/DeliveryMomentCosmosChangeStream.csproj", "DeliveryMomentCosmosChangeStream/"]
-COPY ["DeliveryMomentCosmosRepository/DeliveryMomentCosmosRepository.csproj", "DeliveryMomentCosmosRepository/"]
-COPY ["ConfluentKafkaUtility/ConfluentKafkaUtility.csproj", "ConfluentKafkaUtility/"]
-RUN dotnet restore "DeliveryMomentCosmosChangeStream/DeliveryMomentCosmosChangeStream.csproj"
+COPY ["dmcc/dmcc.csproj", "dmcc/"]
+COPY ["dmcr/dmcr.csproj", "dmcr/"]
+COPY ["cku/cku.csproj", "cku/"]
+RUN dotnet restore "dmcc/dmcc.csproj"
 COPY . .
-WORKDIR "/src/DeliveryMomentCosmosChangeStream"
-RUN dotnet build "DeliveryMomentCosmosChangeStream.csproj" -c Release -o /app/build
+WORKDIR "/src/dmcc"
+RUN dotnet build "dmcc.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "DeliveryMomentCosmosChangeStream.csproj" -c Release -o /app/publish
+RUN dotnet publish "dmcc.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "DeliveryMomentCosmosChangeStream.dll"]
+ENTRYPOINT ["dotnet", "dmcc.dll"]
