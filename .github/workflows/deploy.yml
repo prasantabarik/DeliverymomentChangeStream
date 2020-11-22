@@ -32,4 +32,4 @@ jobs:
         namespace: fromgh
         manifests: deployment.yaml
         images: ghcr.io/prasantabarik/myfirstconimg:latest
-        imagepullsecrets: ${{ secrets.CR_PAT }}
+        imagepullsecrets: pullsecret
