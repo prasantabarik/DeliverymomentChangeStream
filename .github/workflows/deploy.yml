@@ -30,8 +30,7 @@ jobs:
       with:
         namespace: fromgh
         manifests: |
-          manifests/deployment.yaml
- #         manifests/service.yaml
+          deployment.yaml
         images: |
           docker.pkg.github.com/prasantabarik/del/image:latest
      #     cloudlifeacr.azurecr.io/k8sflask:${{ github.sha }}
