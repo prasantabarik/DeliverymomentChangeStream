@@ -19,7 +19,7 @@ jobs:
         creds: '${{ secrets.AZURE_CREDENTIALS }}'
         cluster-name: WeEuS01AKSDEP01
         resource-group: WeEu-S01-Dev-Rsg-Akscn-DEP-01
-        
+
  #   - uses: Azure/k8s-create-secret@v1
  #     with:
  #       container-registry-url: cloudlifeacr.azurecr.io
