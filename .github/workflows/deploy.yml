@@ -32,4 +32,4 @@ jobs:
         namespace: fromgh
         manifests: deployment.yaml
         images: docker.pkg.github.com/prasantabarik/del/image:latest
-        imagepullsecrets: ${{ secrets.GITHUB_TOKEN }}
+        imagepullsecrets: ${{ secrets.CR_PAT }}
