@@ -29,11 +29,5 @@ jobs:
     - uses: Azure/k8s-deploy@v1
       with:
         namespace: fromgh
-        manifests: |
-          deployment.yaml
-        images: |
-          docker.pkg.github.com/prasantabarik/del/image:latest
-     #     cloudlifeacr.azurecr.io/k8sflask:${{ github.sha }}
-           
-#        imagepullsecrets: |
-#          k8s-secret
+        manifests: deployment.yaml
+        images: docker.pkg.github.com/prasantabarik/del/image:latest
