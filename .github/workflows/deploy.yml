@@ -25,7 +25,7 @@ jobs:
  #       container-registry-username: ${{ secrets.ACR_USERNAME }}
  #       container-registry-password: ${{ secrets.ACR_PASSWORD }}
  #       secret-name: k8s-secret
-
+    # Deploy AKS cluster.
     - uses: Azure/k8s-deploy@v1
       with:
         namespace: fromgh
