@@ -31,4 +31,4 @@ jobs:
       with:
         namespace: fromgh
         manifests: deployment.yaml
-        images: docker.pkg.github.com/prasantabarik/del/image:latest
+        images: ghcr.io/prasantabarik/del/image:latest
