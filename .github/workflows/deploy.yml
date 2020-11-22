@@ -31,4 +31,5 @@ jobs:
       with:
         namespace: fromgh
         manifests: deployment.yaml
-        images: ghcr.io/prasantabarik/del/image:latest
+        images: docker.pkg.github.com/prasantabarik/del/image:latest
+        imagePullSecret: ${{ secrets.GITHUB_TOKEN }}
