@@ -19,7 +19,7 @@ spec:
     spec:
      containers:
      - name: scmchangestreamnew
-       image: docker.pkg.github.com/prasantabarik/del/image:latest
+       image: ghcr.io/prasantabarik/del/image:latest
        imagePullPolicy: Always
        resources:
          requests:
