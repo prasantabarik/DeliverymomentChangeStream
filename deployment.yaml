@@ -19,6 +19,7 @@ spec:
       annotations:
         dapr.io/enabled: "true"
         dapr.io/app-id: "scmchangestreamnew"
+     #  port is required if you have service running, else comment it
      #   dapr.io/app-port: "3000"
     spec:
      containers:
